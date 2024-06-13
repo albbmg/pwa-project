@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "timestamp": 1718295375118,
+  "index": "/pwa-project/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-project/favicon.ico",
+        "/pwa-project/index.html",
+        "/pwa-project/main.eefa46aa64b55ac6.js",
+        "/pwa-project/manifest.webmanifest",
+        "/pwa-project/polyfills.737ef7a289740d40.js",
+        "/pwa-project/runtime.5fa8a92f6aceb5f5.js",
+        "/pwa-project/styles.67a5a559105030b0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-project/assets/icons/icon-128x128.png",
+        "/pwa-project/assets/icons/icon-144x144.png",
+        "/pwa-project/assets/icons/icon-152x152.png",
+        "/pwa-project/assets/icons/icon-192x192.png",
+        "/pwa-project/assets/icons/icon-384x384.png",
+        "/pwa-project/assets/icons/icon-512x512.png",
+        "/pwa-project/assets/icons/icon-72x72.png",
+        "/pwa-project/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-calls",
+      "patterns": [
+        "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pwa-project/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pwa-project/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pwa-project/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pwa-project/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pwa-project/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pwa-project/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pwa-project/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pwa-project/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pwa-project/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pwa-project/index.html": "1d2338f0ab26def4047562d1116e2ba5fd0a029c",
+    "/pwa-project/main.eefa46aa64b55ac6.js": "ed3e334ae6f77c7d1e4fe585653d5e26dba10a6d",
+    "/pwa-project/manifest.webmanifest": "e6a40ca337e8f8810def50b181048da1a7208060",
+    "/pwa-project/polyfills.737ef7a289740d40.js": "2c75b077175facfb876c3d39d14b04c828f3db65",
+    "/pwa-project/runtime.5fa8a92f6aceb5f5.js": "5f152dc3952dd9ec17b3c88c851aeb8f7bca9e97",
+    "/pwa-project/styles.67a5a559105030b0.css": "97e95dd23ef2d868a28124677f4a4d87933cc1b5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/assets\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
